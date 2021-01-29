@@ -1,0 +1,58 @@
+<!-- Write your HTML here
+File Name: quiz.html-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+    <script type="text/javascript" src="quiz.js"></script>
+  </head>
+  
+	<body>
+		<form name="quiz" id="quiz">
+			<div>
+				<p>1. How do you write "Hello World" in an alert box in JavaScript?</p>
+				<p><input name="question1" type="radio" value="1" />A. msg("Hello World");</p>
+				<p><input name="question1" type="radio" value="2" />B. alert("Hello World");</p>
+				<p><input name="question1" type="radio" value="3" />C. msgBox("Hello World");</p>
+				<p><input name="question1" type="radio" value="4" />D. alertBox("Hello World");</p>
+			</div>
+          
+          <div>
+				<p>2. What is the correct JavaScript syntax to write "Hello World"?</p>
+				<p><input name="question2" type="radio" value="1" />A. ("Hello World");</p>
+				<p><input name="question2" type="radio" value="2" />B. echo "Hello World";</p>
+				<p><input name="question2" type="radio" value="3" />C. document.write("Hello World");</p>
+				<p><input name="question2" type="radio" value="4" />D. response.write("Hello World");</p>
+			</div>
+          
+          <div>
+				<p>3. How to write an IF statement for executing some code in JavaScript if "i" is NOT equal to 5?</p>
+				<p><input name="question3" type="radio" value="1" />A. if i<>5</p>
+				<p><input name="question3" type="radio" value="2" />B. if(i!=5)</p>
+				<p><input name="question3" type="radio" value="3" />C. if i=!5 then</p>
+				<p><input name="question3" type="radio" value="4" />D. if (i<>5)</p>
+			</div>
+          
+          <div>
+				<p>4. Inside which HTML element do we put the JavaScript?</p>
+				<p><input name="question4" type="radio" value="1" />A. js tag</p>
+				<p><input name="question4" type="radio" value="2" />B. javascript tag</p>
+				<p><input name="question4" type="radio" value="3" />C. script tag</p>
+				<p><input name="question4" type="radio" value="4" />D. scripting tag</p>
+			</div>
+          
+          <div>
+				<p>5. How to write an IF statement in JavaScript?</p>
+				<p><input name="question5" type="radio" value="1" />A. if i==5 then</p>
+				<p><input name="question5" type="radio" value="2" />B. if i=5</p>
+				<p><input name="question5" type="radio" value="3" />C. if (i==5) then</p>
+				<p><input name="question5" type="radio" value="4" />D. if (i==5)</p>
+			</div>
+          
+          <input type="button" name=""  value="I'm done!" id="button" onclick="check()">
+		</form>
+      <p id="result"></p>
+  </body>
+</html>
